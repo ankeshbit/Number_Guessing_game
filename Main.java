@@ -12,7 +12,7 @@ class GuessingGame {
 
         while (true) {
             resetGame();
-            System.out.println("🎯 Welcome to the Number Guessing Game!");
+            System.out.println("Welcome to the Number Guessing Game!");
 
             while (true) {
                 System.out.print("Enter your guess between 1 and 100 (or 0 to exit): ");
@@ -64,7 +64,7 @@ class GuessingGame {
             System.out.println("Too high!");
             return false;
         } else {
-            System.out.println("🎉 You guessed it right!");
+            System.out.println("You guessed it right!");
             return true;
         }
     }
